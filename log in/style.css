@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.general-container {
+    max-width: 340px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.14);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    height: 20px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+label {
+    font-size: 9px;
+    line-height: 9px;
+    color: rgba(153, 153, 153, 1);
+    margin-bottom: 1px;
+}
+
+input {
+    font-size: 13px;
+    height: 27px;
+    outline: none;
+    border: 0; 
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid rgba(51, 105, 243, 1);
+    margin-bottom: 16px;
+}
+
+input:focus {
+    border-bottom: 2px solid rgba(51, 105, 243, 1);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 169px;
+    bottom: 0;
+}
+
+button {
+    font-size: 13px;
+    cursor: pointer;
+    height: 37px;
+    width: 100%;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(51, 105, 243, 1);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 11px;
+    font-style: normal;
+    color: rgba(51, 105, 243, 1);
+
+}
+
+
+
+
