@@ -2,16 +2,18 @@
 
 
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-style: normal;
+    display: flex;
 }
 
 .general-container {
+    flex: 1;
     max-width: 340px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 450px;
     box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.14);
     border-radius: 12px;
