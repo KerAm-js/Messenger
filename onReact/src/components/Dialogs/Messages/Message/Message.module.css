@@ -1,0 +1,23 @@
+.Message {
+  margin: 0 0 5px 0;
+  display: flex;
+  padding: 11px;
+  max-width: 402px;
+  min-width: 150px;
+  background: #F8F8F8;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.text {
+}
+.time {
+  margin: auto 0 0 auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #999999;
+}
+.Message.my {
+  background: #E4EDFD;
+  margin: 0 0 5px auto;
+}

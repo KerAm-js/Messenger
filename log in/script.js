@@ -9,7 +9,6 @@ labelPass.style.visibility = 'hidden';
 logInput.onfocus = function() {
     labelLog.style.visibility = 'visible';
     logInput.setAttribute('placeholder', '');
-
 }
 
 password.onfocus = function() {
